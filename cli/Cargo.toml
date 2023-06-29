@@ -1,0 +1,17 @@
+[package]
+name = "ycli"
+version = "0.1.0"
+edition = "2021"
+author = "yexiyue"
+about = "a study cli demo by rust"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.3.8", features = ["derive"] }
+console = "0.15.7"
+predicates = "3.0.3"
+
+command={path="../command"}
+init={path="../init"}
+utils={path="../utils"}
